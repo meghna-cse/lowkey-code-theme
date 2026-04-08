@@ -2,7 +2,7 @@
   "name": "lowkey-code-theme",
   "displayName": "Lowkey Code Theme",
   "description": "A calm, low-contrast VS Code theme focused on readability, reduced eye strain, and minimal cognitive load.",
-  "version": "0.0.1",
+  "version": "0.0.3",
   "publisher": "meghna-cse",
   "engines": {
     "vscode": "^1.85.0"
