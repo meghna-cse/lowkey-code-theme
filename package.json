@@ -1,0 +1,32 @@
+{
+  "name": "lowkey-code-theme",
+  "displayName": "Lowkey Code Theme",
+  "description": "A calm, distraction-free VS Code theme designed for long coding sessions.",
+  "version": "0.0.1",
+  "publisher": "Meghna J",
+  "engines": {
+    "vscode": "^1.80.0"
+  },
+  "categories": ["Themes"],
+  "keywords": [
+    "vscode",
+    "theme",
+    "dark theme",
+    "light theme",
+    "developer tools"
+  ],
+  "contributes": {
+    "themes": [
+      {
+        "label": "Lowkey Code Light",
+        "uiTheme": "vs",
+        "path": "./themes/lowkey-light.json"
+      },
+      {
+        "label": "Lowkey Code Dark",
+        "uiTheme": "vs-dark",
+        "path": "./themes/lowkey-dark.json"
+      }
+    ]
+  }
+}
