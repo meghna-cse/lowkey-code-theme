@@ -1,31 +1,46 @@
 {
   "name": "lowkey-code-theme",
   "displayName": "Lowkey Code Theme",
-  "description": "A calm, distraction-free VS Code theme designed for long coding sessions.",
+  "description": "A calm, low-contrast VS Code theme focused on readability, reduced eye strain, and minimal cognitive load.",
   "version": "0.0.1",
-  "publisher": "Meghna J",
+  "publisher": "meghna-cse",
   "engines": {
-    "vscode": "^1.80.0"
+    "vscode": "^1.85.0"
   },
-  "categories": ["Themes"],
+  "categories": [
+    "Themes"
+  ],
   "keywords": [
-    "vscode",
     "theme",
     "dark theme",
     "light theme",
-    "developer tools"
+    "minimal",
+    "low contrast",
+    "calm",
+    "eye friendly",
+    "adhd friendly",
+    "color blind friendly"
   ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/meghna-cse/lowkey-code-theme"
+  },
+  "homepage": "https://github.com/meghna-cse/lowkey-code-theme",
+  "bugs": {
+    "url": "https://github.com/meghna-cse/lowkey-code-theme/issues"
+  },
+  "icon": "assets/icon.png",
   "contributes": {
     "themes": [
       {
-        "label": "Lowkey Code Light",
-        "uiTheme": "vs",
-        "path": "./themes/lowkey-light.json"
-      },
-      {
         "label": "Lowkey Code Dark",
         "uiTheme": "vs-dark",
-        "path": "./themes/lowkey-dark.json"
+        "path": "./themes/lowkey-code-dark.json"
+      },
+      {
+        "label": "Lowkey Code Light",
+        "uiTheme": "vs",
+        "path": "./themes/lowkey-code-light.json"
       }
     ]
   }
