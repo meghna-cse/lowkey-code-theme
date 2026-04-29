@@ -36,6 +36,8 @@ Clone this repository and load it as a local VS Code extension for development.
 
 - Lowkey Code Light
 - Lowkey Code Dark
+- Lowkey Code Focus Light
+- Lowkey Code Focus Dark
 
 ## License
 

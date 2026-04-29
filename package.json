@@ -41,6 +41,16 @@
         "label": "Lowkey Code Light",
         "uiTheme": "vs",
         "path": "./themes/lowkey-code-light.json"
+      },
+      {
+        "label": "Lowkey Code Focus Dark",
+        "uiTheme": "vs-dark",
+        "path": "./themes/lowkey-code-focus-dark.json"
+      },
+      {
+        "label": "Lowkey Code Focus Light",
+        "uiTheme": "vs",
+        "path": "./themes/lowkey-code-focus-light.json"
       }
     ]
   }
